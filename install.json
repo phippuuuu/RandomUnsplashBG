@@ -1,10 +1,39 @@
 {
   "resources": {
-    "body": [
+    "head": [
       {
         "type": "script",
-        "src": "./script.js"
+        "src": "head.js"
       }
     ]
+  },
+  "options": {
+    "properties": {
+      "hidePageWhileLoading": {
+        "order": 1,
+        "title": "Hide the page until the background image has loaded",
+        "type": "boolean",
+        "default": true
+      },
+      "imageOptions": {
+        "order": 2,
+        "type": "object",
+        "title": "Background image options",
+        "properties": {
+          "blur": {
+            "order": 1,
+            "title": "Blur",
+            "type": "boolean",
+            "default": false
+          },
+          "grayscale": {
+            "order": 2,
+            "title": "Grayscale",
+            "type": "boolean",
+            "default": false
+          }
+        }
+      }
+    }
   }
 }
