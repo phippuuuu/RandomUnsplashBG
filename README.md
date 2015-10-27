@@ -10,4 +10,4 @@ The images can be blurred or not, and made grayscale or not, and automatically a
 
 Additionally, you have the option of waiting to show the page until the background image has loaded.
 
-__[View a demo](https://eager.io/app/random-background/install?initialUrl=http://example)__
+__[View a demo](https://eager.io/app/random-background/install?initialUrl=http://example.com)__
