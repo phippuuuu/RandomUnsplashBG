@@ -7,7 +7,13 @@
 
   var options = INSTALL_OPTIONS
   var isPreview = INSTALL_ID === 'preview'
+  var sessionStorage = window.sessionStorage || {}
   var imageID = getRandomID()
+
+  if (!isPreview && sessionStorage.cfBackgroundID) {
+    imageID = parseInt(sessionStorage.cfBackgroundID, 10)
+    sessionStorage.cfBackgroundID = imageID
+  }
 
   var style = document.createElement('style')
   document.head.appendChild(style)
