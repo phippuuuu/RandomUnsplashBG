@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/CloudflareApps/RandomBackground.git"
   },
-  "author": "Cloudflare Inc.",
+  "contributors": [
+    "Philipp Wüthrich <philipp.wuethrich@bbcag.ch>",
+    "Cloudflare Inc. <app-developer-help@cloudflare.com> (https://www.cloudflare.com/apps/)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/CloudflareApps/RandomBackground/issues"
