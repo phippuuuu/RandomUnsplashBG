@@ -3,7 +3,15 @@
     "head": [
       {
         "type": "script",
-        "src": "head.js"
+        "src": "source/app.js"
+      }
+    ]
+  },
+  "preview": {
+    "handlers": [
+      {
+        "options": ["*"],
+        "execute": "INSTALL_SCOPE.setOptions(INSTALL_OPTIONS)"
       }
     ]
   },
